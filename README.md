@@ -8,7 +8,8 @@ Welcome to my custom Neovim configuration. This repository contains an optimized
 - **System clipboard support** for copy and paste between applications.
 - **Essential plugins** for file management, comments, Git change indicators, and advanced search.
 
-## Included Plugins - [NERDTree](https://github.com/preservim/nerdtree): File explorer.
+## Included Plugins 
+- [NERDTree](https://github.com/preservim/nerdtree): File explorer.
 - [fzf](https://github.com/junegunn/fzf): Fuzzy search.
 - [fzf.vim](https://github.com/junegunn/fzf.vim): Additional commands for fzf.
 - [vim-commentary](https://github.com/tpope/vim-commentary): Comments with gcc.
@@ -23,8 +24,9 @@ Welcome to my custom Neovim configuration. This repository contains an optimized
 - [cmp-path](https://github.com/hrsh7th/cmp-path): Path autocompletion.
 - [cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline): Command line autocompletion.
 
-## Installation Before you begin, make sure you have Homebrew installed on your system. If you don't have Homebrew, follow the instructions below to install it.
 
+## Installation 
+Before you begin, make sure you have Homebrew installed on your system. If you don't have Homebrew, follow the instructions below to install it.
 
 ### 1. Install Homebrew 
 Homebrew is a package manager for macOS that makes installing software easy. 
