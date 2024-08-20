@@ -29,8 +29,56 @@ Welcome to my custom Neovim configuration. This repository contains an optimized
 
 ## Installation
 
-1. **Clone the repository**:
+Before you begin, make sure you have Homebrew installed on your system. If you don't have Homebrew, follow the instructions below to install it.
+
+### 1. Install Homebrew
+
+Homebrew is a package manager for macOS that makes installing software easy. To install Homebrew, open Terminal and run:
 
 ```bash
-git clone https://github.com/your-user/neovim-config.git ~/.config/nvim
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
+To verify that Homebrew has been installed correctly, run:
+```bash
+brew --version
+```
+
+### 2. Install Neovim
+Once you have Homebrew installed, you can install Neovim with the following command:
+
+```bash
+brew install neovim
+```
+
+### 3. Configure Neovim
+Create the directories needed for Neovim configuration:
+
+```bash
+mkdir -p ~/.config/nvim
+cd ~/.config/nvim
+```
+
+**Clone the repository**:
+
+```bash
+git clone https://github.com/AmbrizAlberto/neovim-config.git
+```
+
+Guarda y cierra el archivo.
+
+### 3. Instalar Plugins
+Abre Neovim y ejecuta el siguiente comando para instalar los plugins especificados:
+```vim
+:PlugInstall
+```
+
+Esto descargará e instalará todos los plugins que hayas agregado en el archivo init.vim.
+
+
+## Uso
+
+Ahora que Neovim está configurado, puedes comenzar a usarlo con tus nuevos ajustes y plugins. Para obtener más información sobre cómo usar Neovim y sus plugins, consulta la documentación oficial de Neovim y la documentación de cada plugin.
+
+## Contribuciones
+Si tienes sugerencias para mejorar esta configuración, no dudes en hacer un fork del repositorio y enviar un pull request. ¡Tus aportaciones son bienvenidas!
